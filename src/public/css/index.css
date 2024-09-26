@@ -1,0 +1,89 @@
+.header {
+    background-color: black;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.content-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    color: #aaa;
+    background-color: #fafafa;
+    padding: 4px 6px;
+    border-radius: 3px;
+
+}
+
+.form__input--text input,
+.form__input--text textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    /* フォーム特有のスタイルを打ち消す */
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--text textarea {
+    height: 180px;
+}
+
+.form__error {
+    color: red;
+    height: 20px;
+    text-align: left;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    width: 30%;
+    height: 50px;
+    color: white;
+    border: none;
+    background-color: black;
+    padding:
+        10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
